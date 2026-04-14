@@ -14,10 +14,11 @@
 @layer base {
   html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
   }
 
   body {
-    @apply bg-primary text-white antialiased;
+    @apply bg-primary text-white antialiased overflow-x-hidden;
   }
 
   /* Custom scrollbar */
@@ -52,7 +53,7 @@
   }
 
   .section-inner {
-    @apply mx-auto w-full max-w-6xl px-6;
+    @apply mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8;
   }
 
   .section-head {
