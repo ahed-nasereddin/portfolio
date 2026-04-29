@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.10",
+    "@vercel/analytics": "^2.0.1",
     "@vueuse/head": "^2.0.0",
     "@vueuse/motion": "^3.0.3",
     "aos": "^2.3.4",
